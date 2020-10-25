@@ -21,3 +21,14 @@
          $dateTimeString = $result[18]['attributes']['Last_Update'] / 1000; 
 
          $lastUpdate = date("l, d F Y H:i:s", $dateTimeString);
+$dateTimeString = $result[18]['attributes']['Last_Update'] / 1000; 
+
+         $lastUpdate = date("l, d F Y H:i:s", $dateTimeString);
+
+         echo "<center><b>Negara: ". $countryRegion;
+
+         echo "<br>";
+
+         echo "Positif : ". $confirmed;
+
+        
